@@ -13,7 +13,8 @@ input {
 	border: none;
 }
 body {
-  width: 39.3rem;
+  width: 100%;
+  background-color: #092930;
 }.iphone-14-15-pro-1-KHD {
   box-sizing: border-box;
   padding: 6.9rem 2.4rem 5.9rem 2.4rem;
@@ -54,8 +55,7 @@ body {
   align-items: baseline;
   flex-shrink: 0;
 }
-.iphone-14-15-pro-1-KHD .group-2-LrX .event-pack-pv7 .event-pack-pv7-sub-0 {
-}
+
 .iphone-14-15-pro-1-KHD .group-2-LrX .event-pack-pv7 .event-pack-pv7-sub-1 {
   font-size: 2.5rem;
   font-weight: 400;
@@ -64,8 +64,7 @@ body {
   color: #ffffff;
   font-family: Bayon, 'Source Sans Pro';
 }
-.iphone-14-15-pro-1-KHD .group-2-LrX .event-pack-pv7 .event-pack-pv7-sub-2 {
-}
+
 .iphone-14-15-pro-1-KHD .group-2-LrX .group-1-z5q {
   width: 14.5rem;
   height: 100%;
@@ -380,4 +379,32 @@ body {
   font-family: Bayon, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
+}
+
+.group-2-LrX {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mos-card-2gj {
+  max-width: 350px;
+}
+
+.irfans-card-zMy {
+  max-width: 350px;
+}
+
+.rectangle-2-jJK:hover {
+  background-color: #0ac1bc;
+
+}
+
+.group-1-z5q .rectangle-2-jJK {
+  transition: background-color 0.3s ease;
+}
+
+
+.group-1-z5q:hover .rectangle-2-jJK {
+  background-color: #0ac1bc;
 }
