@@ -27,7 +27,7 @@ body {
   background-color: #0a485b;
 }
 .iphone-14-15-pro-1-KHD .ashtonslogo16white-on-blue-1-Tnj {
-  margin: 0rem 0.1rem 7.7rem 0rem;
+  margin: 0rem 0.1rem 5.7rem 0rem;
   width: 21.6rem;
   height: 4.2rem;
   position: relative;
@@ -36,7 +36,7 @@ body {
   flex-shrink: 0;
 }
 .iphone-14-15-pro-1-KHD .group-2-LrX {
-  margin: 0rem 3.3rem 4.9rem 4.6rem;
+  margin: 0rem 3.3rem 3.9rem 4.6rem;
   width: calc(100% - 7.9rem);
   height: 4.6rem;
   display: flex;
@@ -372,6 +372,7 @@ body {
 }
 .iphone-14-15-pro-1-KHD .thank-you-jw9 {
   margin-right: 0.1rem;
+  margin-top: 1rem;
   font-size: 2.5rem;
   font-weight: 400;
   line-height: 1.805;
