@@ -408,3 +408,32 @@ body {
 .group-1-z5q:hover .rectangle-2-jJK {
   background-color: #0ac1bc;
 }
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  color: white;
+  font-family: Arimo Hebrew Subset, 'Source Sans Pro';
+  font-size: 12px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.footer-content a {
+  color: white;
+}
+
+.footer-content a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-content:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  color: #0ac1bc;
+  transition: color 0.3s ease;
+}
