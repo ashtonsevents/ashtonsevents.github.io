@@ -440,5 +440,5 @@ footer {
 }
 
 :root {
-  color-scheme: light only;
+  color-scheme: light only !important; 
 }
