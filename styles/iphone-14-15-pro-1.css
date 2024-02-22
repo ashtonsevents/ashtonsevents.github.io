@@ -442,3 +442,13 @@ footer {
 :root {
   color-scheme: light only !important; 
 }
+
+/* Add styles specific to Samsung devices */
+@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Add your Samsung-specific styles here */
+  body {
+    background-color: #00ff9d; /* Red background for Samsung devices */
+  }
+
+  /* Adjust other styles as needed for Samsung devices */
+}
