@@ -438,3 +438,13 @@ footer {
   color: #0ac1bc;
   transition: color 0.3s ease;
 }
+
+.mos-card-2gj {
+  background-color: #d9d6ca;
+}
+
+@media(prefers-color-scheme: dark) {
+  .mos-card-2gj {
+    background-color: #d9d6ca;
+  }
+}
