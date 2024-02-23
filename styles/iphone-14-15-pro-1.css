@@ -310,22 +310,12 @@ footer {
 }
 
 .footer-content a:hover {
-  color: #0ac1bc;
+  color: #0ac1bc ;
   transition: color 0.3s ease;
 }
 
 :root {
   color-scheme: light only !important; 
-}
-
-
-.mos-card-2gj,
-.irfans-card-zMy {
-  /* Add other styles as needed */
-  background-image: url('assets\SVG\cardcontainer.svg');
-  background-size: cover; /* Ensures the image covers the entire container */
-  background-position: center; /* Centers the image */
-  background-color: transparent;
 }
 
 /* For desktop */
@@ -342,4 +332,77 @@ footer {
   .irfans-card-zMy {
     max-width: 30%; /* You can adjust the width as needed for mobile */
   }
+}
+
+.mos-card-2gj {
+  position: relative;
+  max-width: 350px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+}
+
+.svg-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/1x/cardcontainer.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.text-content {
+  position: relative;
+  font-family: Arimo Hebrew Subset, 'Source Sans Pro';
+  z-index: 1; /* Ensure text is above SVG */
+  padding: 8%; /* Adjust spacing as needed */
+  text-align: left;
+  right: 20%;
+  color: transparent;
+  text-shadow: 0 0 0 #092930;
+}
+
+/* Styles for the text elements */
+.mo-name {
+  font-size: 24px;
+  font-weight: bold;
+  /* Add more styles as needed */
+}
+
+.mo-role1,
+.mo-role2,
+.mo-connect,
+.contact-info {
+  font-size: 12px;
+  /* Add more styles as needed */
+}
+
+.linkedin-link {
+  display: inline-block;
+  margin-top: 4%;
+}
+
+.linkedin-logo {
+  width: 35%; /* Adjust size as needed */
+  height: auto;
+  margin-bottom: 3%;
+  /* Add more styles as needed */
+}
+
+.mo_logo {
+  width: 70%;
+  position: absolute;
+  top: 1%;
+  left: 41%;
+  margin-top: 10px; /* Add margin-top to adjust spacing */
+}
+
+.mo-connect {
+  margin-top: 5%;
+}
+
+.ashtonsmo {
+  position: absolute;
+  width: 55%;
+  margin-top: 12%;
 }
