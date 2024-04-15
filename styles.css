@@ -424,7 +424,7 @@ footer a {
     font-family: "source-sans-pro", sans-serif;
     color: white;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.3rem;
     padding-bottom: 0vh;
     padding-top: 5vh;
     text-decoration: none;
@@ -439,4 +439,9 @@ footer a {
 .hello :hover {
     color: #25bcb9;
     transition: color 0.5s ease;
+}
+
+video {
+    position: relative;
+    align-items: center;
 }
