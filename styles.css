@@ -52,7 +52,7 @@ body, html {
     text-align: center;
     white-space: nowrap; /* Prevent text wrapping */
     font-size: 1.3rem;
-    margin: 5vh auto; /* Center horizontally */
+    margin: 2vh auto; /* Center horizontally */
     transition: background-color, transform 0.3s;
 }
 
