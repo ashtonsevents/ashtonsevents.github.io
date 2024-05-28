@@ -1,10 +1,17 @@
-function downloadFile() {
-    // Get the file URL
-    var fileUrl = "assets/Ashtons Primary Care Flyer.pdf"; // Corrected URL
+function downloadFile(fileType) {
+    var fileUrl;
+
+    // Determine the file URL based on the fileType parameter
+    if (fileType === 'eventPack') {
+        fileUrl = "assets/Ashtons Primary Care Flyer.pdf"; // Event Pack URL
+    } else if (fileType === 'caseStudy') {
+        fileUrl = "assets/West Devon Case Study.pdf"; // Case Study URL
+    }
 
     // Open the file in a new tab
     window.open(fileUrl, "_blank");
 }
+
 
 document.addEventListener("DOMContentLoaded", function() {
     var menuLinks = document.querySelectorAll('.menu a');
